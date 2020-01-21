@@ -20,4 +20,3 @@ constraints:
         description: This issue is being tracked as a security vulnerability that presents a high level of risk.
         color: '#e11d21'
         presence: required
-
