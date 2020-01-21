@@ -1,0 +1,22 @@
+id: label_standardization_check
+
+on:
+  repository:
+    filters:
+      - resource.visibility.public
+
+constraints:
+  labels:
+    values:
+      - name: credential-leak
+        description: Credential exposure
+        color: '#e05759'
+        presence: required
+      - name: security-sev-1
+        description: This issue is being tracked as a security vulnerability that presents a critical level of risk.
+        color: '#eb6420'
+        presence: required
+      - name: security-sev-2
+        description: This issue is being tracked as a security vulnerability that presents a high level of risk.
+        color: '#e11d21'
+        presence: required
