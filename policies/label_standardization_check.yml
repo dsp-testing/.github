@@ -1,4 +1,5 @@
 id: label_standardization_check
+name: Standard labels are available
 
 on:
   repository:
@@ -21,7 +22,3 @@ constraints:
         color: '#e11d21'
         presence: required
         
-
-
-
-
