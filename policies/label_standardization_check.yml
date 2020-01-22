@@ -1,7 +1,7 @@
 id: label_standardization_check
 name: Standard labels are available
 
-on:
+subject:
   repository:
     filters:
       - resource.visibility.public
