@@ -1,5 +1,5 @@
 id: private_repo_has_wiki
-name: Private repos should always have wikis enabled
+name: Private repos should have wikis enabled always
 subject: repository
 filters:
   $eq:
