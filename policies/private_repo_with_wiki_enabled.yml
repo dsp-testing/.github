@@ -1,0 +1,20 @@
+id: private_repo_has_wiki
+name: Private repos should have wikis enabled
+subject: repository
+filters:
+  $eq:
+    lhs:
+      $propertyAccess:
+        lhs: $resource
+        rhs: isPrivate
+    rhs:
+      true
+constraints:
+  $eq:
+    lhs:
+      $propertyAccess:
+        lhs: $resource
+        rhs: hasWikiEnabled
+    rhs:
+      true
+YAML
