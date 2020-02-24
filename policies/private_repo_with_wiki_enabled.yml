@@ -17,4 +17,3 @@ constraints:
         rhs: hasWikiEnabled
     rhs:
       true
-YAML
