@@ -1,14 +1,14 @@
-id: private_repo_has_wiki
-name: Private repos should always have wikis enabled as a setting
+id: php-composer-test-wiki-policy
+name: php-composer-test must have wiki disabled
 subject: repository
 filters:
   $eq:
     lhs:
       $propertyAccess:
         lhs: $resource
-        rhs: isPrivate
+        rhs: name
     rhs:
-      true
+      php-composer-test
 constraints:
   $eq:
     lhs:
@@ -16,5 +16,5 @@ constraints:
         lhs: $resource
         rhs: hasWikiEnabled
     rhs:
-      true
+      false
 
