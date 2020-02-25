@@ -2,19 +2,6 @@ id: php-composer-test-wiki-policy
 name: php-composer-test _must_ have wiki enabled
 subject: repository
 filters:
-  $eq:
-    lhs:
-      $propertyAccess:
-        lhs: $resource
-        rhs: name
-    rhs:
-      php-composer-test
+  - resource.name == php-composer-test
 constraints:
-  $eq:
-    lhs:
-      $propertyAccess:
-        lhs: $resource
-        rhs: hasWikiEnabled
-    rhs:
-      true
-
+  - resource.hasWikiEnabled == false
