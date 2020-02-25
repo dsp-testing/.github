@@ -1,5 +1,5 @@
 id: php-composer-test-wiki-policy
-name: php-composer-test must have wiki disabled
+name: php-composer-test _must_ have wiki disabled
 subject: repository
 filters:
   $eq:
