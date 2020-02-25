@@ -1,5 +1,5 @@
 id: php-composer-test-wiki-policy
-name: php-composer-test _must_ have wiki disabled
+name: php-composer-test _must_ have wiki enabled
 subject: repository
 filters:
   $eq:
@@ -16,5 +16,5 @@ constraints:
         lhs: $resource
         rhs: hasWikiEnabled
     rhs:
-      false
+      true
 
