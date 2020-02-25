@@ -1,7 +1,8 @@
 id: php-composer-test-wiki-policy
-name: Private repos _must_ have wiki disabled
+name: Private PHP repos _must_ have wiki disabled
 subject: repository
 filters:
-  - resource.name == "php-composer-test"
+  - resource.name.startsWith("php")
+  - resource.isPrivate == true
 constraints:
-  - resource.hasWikiEnabled == false
+  - resource.hasWikiEnabled == true
