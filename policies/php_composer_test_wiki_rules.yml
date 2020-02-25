@@ -1,5 +1,5 @@
 id: php-composer-test-wiki-policy
-name: PHP repos _must_ have wiki enabled
+name: PHP repos must have wiki enabled
 subject: repository
 filters:
   - resource.name.startsWith("php")
