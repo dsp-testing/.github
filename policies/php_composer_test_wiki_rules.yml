@@ -1,5 +1,5 @@
 id: php-composer-test-wiki-policy
-name: PHP repos must #always# have wiki disabled
+name: PHP repos must always have its wiki disabled
 subject: repository
 filters:
   - resource.description.startsWith("Test")
