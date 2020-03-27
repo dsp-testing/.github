@@ -16,6 +16,7 @@ ensure:
     match: "^https://contoso.com/.*$"
   files:
     - 'README.md'
+    - 'RULES.md'
     - '.github/ISSUE_TEMPLATE/Bug.md'
     - '.github/ISSUE_TEMPLATE/Feature Request.md'
     - ['CODE_OF_CONDUCT.md', 'docs/CODE_OF_CONDUCT.md', '.github/CODE_OF_CONDUCT.md']
