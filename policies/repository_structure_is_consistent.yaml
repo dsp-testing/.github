@@ -1,6 +1,6 @@
 id: repository_structure_is_consistent
 name: Repository structure is extremely consistent
-description: All public repos follow naming standards and contain required community files
+description: All public repositories follow naming standards and contain required community files
 owner: iamwillbar@github.com
 doc: https://contoso.com/policy/repository_community_files_exist
 
