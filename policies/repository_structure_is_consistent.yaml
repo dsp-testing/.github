@@ -6,7 +6,7 @@ doc: https://contoso.com/policy/repository_community_files_exist
 
 for: repositories
 where:
-  - resource.visibility.public
+  - !resource.isPrivate
 ensure:
   name:
     length: 
