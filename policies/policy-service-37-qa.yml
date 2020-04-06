@@ -1,0 +1,8 @@
+id: policy-service-37-qa
+name: QA stands for Quarantine Appreciation
+
+for: repositories
+where:
+  - resource.isPrivate == false
+ensure:
+  hasWikiEnabled: true
