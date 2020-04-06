@@ -3,6 +3,6 @@ name: QA stands for Quarantine Appreciation
 
 for: repositories
 where:
-  - resource.isPrivate == false
+  - resource.isPrivate == true
 ensure:
   hasWikiEnabled: true
