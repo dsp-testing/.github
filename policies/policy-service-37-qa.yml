@@ -5,5 +5,4 @@ for: repositories
 where:
   - resource.isPrivate == true
 ensure:
-  hasWikiEnabled:
-    value: true
+  hasWikiEnabled: resource.name == resource.description
