@@ -8,5 +8,5 @@ for: repositories
 where:
   - resource.isPrivate == false
 ensure:
-  isHasWikiEnabled: 
+  hasWikiEnabled: 
     value: true
