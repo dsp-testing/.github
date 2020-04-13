@@ -9,4 +9,4 @@ where:
   - resource.isPrivate == true
 ensure:
   diskUsage:
-    max: 20
+    maxX: 15
