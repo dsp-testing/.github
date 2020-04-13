@@ -8,4 +8,5 @@ for: repositories
 where:
   - resource.isPrivate == true
 ensure:
-  forkCount: 0
+  forkCount:
+    value: 0
