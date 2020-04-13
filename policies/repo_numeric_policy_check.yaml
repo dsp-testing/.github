@@ -1,0 +1,11 @@
+id: repository_is_private_and_has_no_forks
+name: Repository must always be private, and not have forks
+description: All private repos must not be forked
+owner: iamwillbar@github.com
+doc: https://contoso.com/policy/repository_community_files_exist
+
+for: repositories
+where:
+  - resource.isPrivate == true
+ensure:
+  forkCount: 0
