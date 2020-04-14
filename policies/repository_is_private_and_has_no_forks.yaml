@@ -8,6 +8,7 @@ for: repositories
 where:
   - resource.isPrivate == true
 ensure:
+  forkCount: 0
   diskUsage:
     max: 20
     min: 15
