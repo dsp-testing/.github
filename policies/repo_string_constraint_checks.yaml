@@ -8,6 +8,4 @@ for: repositories
 where:
   - resource.isPrivate == true
 ensure:
- name:
-  length:
-    max: 10
+ name: Acorn
