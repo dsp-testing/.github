@@ -9,4 +9,5 @@ where:
   - resource.isPrivate == true
 ensure:
  name:
-  value: .github
+  length:
+    min: 10
