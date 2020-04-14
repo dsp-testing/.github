@@ -8,4 +8,5 @@ for: repositories
 where:
   - resource.isPrivate == true
 ensure:
- name: acorn
+ name:
+  value: .github
