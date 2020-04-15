@@ -8,4 +8,4 @@ for: repositories
 where:
   - resource.isPrivate == true
 ensure:
- name: Acorn
+ name: members-only
