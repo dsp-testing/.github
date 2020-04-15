@@ -1,5 +1,5 @@
 id: repository_name_can_be_constrained
-name: Repository name can be constrained by string constraints
+name: Repository name can be constrained by string constraint
 description: Restric repo naming metrics
 owner: iamwillbar@github.com
 doc: https://contoso.com/policy/repository_community_files_exist
