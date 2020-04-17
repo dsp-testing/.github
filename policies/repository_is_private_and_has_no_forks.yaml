@@ -7,5 +7,5 @@ doc: https://contoso.com/policy/repository_community_files_exist
 for: repositories
 where:
 ensure:
-  isPrivate: true
+  isPrivate: false
   forkCount: 0
