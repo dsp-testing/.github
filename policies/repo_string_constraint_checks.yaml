@@ -6,7 +6,7 @@ doc: https://contoso.com/policy/repository_community_files_exist
 
 for: repositories
 where:
-  - resource.isPrivate == true
-  - "!resource.name.matches("^[a-z0-9-]+$")"
+  - "resource.isPrivate == true"
+  - '!resource.name.matches("^[a-z0-9-]+$")'
 ensure:
   name: bad-name
