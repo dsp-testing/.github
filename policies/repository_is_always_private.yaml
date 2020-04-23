@@ -9,4 +9,4 @@ where:
   - resource.isPrivate == false
 ensure:
   hasWikiEnabled: 
-    value: true
+    value: false
