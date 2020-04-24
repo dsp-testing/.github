@@ -1,6 +1,6 @@
 id: repository_is_always_private
 name: Repository must always be private, never ever public!
-description: Public repositories must always have their wiki enabled, or else!
+description: Public repositories must always have their wiki enabled, or else
 owner: iamwillbar@github.com
 doc: https://contoso.com/policy/repository_community_files_exist
 
