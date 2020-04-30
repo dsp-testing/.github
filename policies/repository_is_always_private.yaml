@@ -9,4 +9,5 @@ where:
   - resource.isPrivate == false
 
 ensure:
-  forkCount: 0
+  forkCount:
+    min: 1
