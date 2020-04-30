@@ -10,4 +10,4 @@ where:
 
 ensure:
   forkCount:
-    min: 1
+    maxX: 1
