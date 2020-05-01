@@ -1,0 +1,9 @@
+id: public-repos-cannot-have-wikis
+name: Public repositories must have wikis disabled
+
+for: repositories
+where: 
+  - resource.isPrivate == false
+
+ensure:
+  hasWikiEnabled: false
