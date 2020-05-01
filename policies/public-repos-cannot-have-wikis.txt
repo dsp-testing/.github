@@ -1,5 +1,5 @@
 id: public-repos-cannot-have-wikis
-name: Public repositories must have wikis disabled
+description: Public repositories must have wikis disabled!
 
 for: repositories
 where: 
