@@ -9,5 +9,6 @@ where:
   - resource.isPrivate == false
 
 ensure:
-  forkCount:
-    min: 1
+  branchProtectionRules:
+    totalCount:
+      min: 1
