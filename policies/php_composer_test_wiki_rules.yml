@@ -1,8 +1,0 @@
-id: php-composer-test-wiki-policy
-name: PHP repositories really really must have their wiki repo disabled
-subject: repository
-filters:
-  - resource.description.startsWith("Test")
-  - resource.isPrivate == true
-constraints:
-  - resource.hasWikiEnabled == false

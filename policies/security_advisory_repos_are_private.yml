@@ -1,7 +1,0 @@
-id: security_advisory_repos_private
-name: Repos with security advisory related names should be private
-subject: repository
-filters:
-  - resource.isPrivate == true
-constraints:
-  - resource.name.startsWith("security_advisory")

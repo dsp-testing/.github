@@ -1,9 +1,0 @@
-id: public-repos-must-have-wikis
-name: Public repositories must have wikis!
-
-for: repositories
-where: 
-  - resource.isPrivate == false
-
-ensure:
-  hasWikiEnabled: true
